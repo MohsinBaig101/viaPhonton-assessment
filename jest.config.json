@@ -1,0 +1,13 @@
+{
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "extensionsToTreatAsEsm": [".ts", ".tsx"],
+    "globals": {
+      "ts-jest": {
+        "useESM": true
+      }
+    }
+  }
